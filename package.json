@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development node server/index.js",
     "build": "vite build",
-    "start": "NODE_ENV=production node dist/index.cjs",
+    "start": "node server/index.js",
     "check": "jsc",
     "db:push": "drizzle-kit push"
   },
